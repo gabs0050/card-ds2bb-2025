@@ -43,3 +43,120 @@ a{
 .menu img{
     height: 18px;
 }
+
+.card-produto {
+    border: 1px solid #ccc;
+    margin: 20px;
+    width: 350px;
+    font-family: sans-serif;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .card-produto img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card-produto h3 {
+    margin-bottom: 10px;
+  }
+  
+  .card-produto p {
+    margin-bottom: 20px;
+  }
+  
+  .preco-avaliacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .preco {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .tamanhos {
+    margin-bottom: 20px;
+  }
+  
+  .tamanhos span {
+    margin-right: 10px;
+  }
+  
+  .opcoes-tamanho {
+    display: flex;
+  }
+  
+  .opcao-tamanho {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .opcao-tamanho:hover {
+    background-color: #eee;
+  }
+  
+  .opcao-tamanho.selecionado {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .cores {
+    margin-bottom: 20px;
+  }
+  
+  .cores span {
+    margin-right: 10px;
+  }
+  
+  .opcao-cor {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  
+  .opcao-cor:hover {
+    border-color: #000;
+  }
+  
+  .opcao-cor.selecionado {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .adicionar-carrinho {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.1em;
+  }
+  
+  .adicionar-carrinho:hover {
+    background-color: #0056b3;
+  }
+
+  .header-card {
+    background-color: #f0f0f0;
+    height: 50px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    display: flex; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 0 20px; /* Adiciona padding nas laterais */
+  }
