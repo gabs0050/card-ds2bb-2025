@@ -74,6 +74,7 @@ const produtos = [
     card.innerHTML = `
       <div class="header-card">
       </div>
+      <footer>
       <img src="${produto.imagem}" alt="${produto.nome}">
       <h3>${produto.nome}</h3>
       <p>${produto.descricao}</p>
@@ -86,6 +87,7 @@ const produtos = [
           ${produto.tamanhos.map(tamanho => `<span class="opcao-tamanho">${tamanho}</span>`).join("")}
         </div>
       </div>
+      </footer>
       <button class="adicionar-carrinho">Adicionar ao carrinho</button>
     `;
   

@@ -160,3 +160,7 @@ a{
     align-items: center; /* Alinha os itens verticalmente */
     padding: 0 20px; /* Adiciona padding nas laterais */
   }
+
+  main {
+    border-radius: 50px;
+  }
